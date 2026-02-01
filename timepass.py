@@ -6,4 +6,8 @@ if movies == 'yes':
     else:
         print("Watch netflix")
 else:
-     print("Sleep at home")
+     walk = input("Are you tired?")
+     if walk == 'yes':
+         print("Sleep at home")
+     else:
+         print("Go for a walk")
