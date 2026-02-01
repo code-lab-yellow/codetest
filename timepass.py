@@ -1,5 +1,9 @@
 movies = input("Do you like movies?")
 if movies == 'yes':
-    print("Go to the theatre")
+    car = input("Do you have a car?")
+    if car == 'yes':
+        print("Go to the theatre")
+    else:
+        print("Watch netflix")
 else:
-    print("sleep at home")
+     print("Sleep at home")
